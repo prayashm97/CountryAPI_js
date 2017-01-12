@@ -80,9 +80,6 @@
 
             });
 
-
-                //$results.html('<p>No senators found for zip code ' + zipcode + '. Please try again.</p>');
-
             });
             options.change(function() {
 
@@ -100,7 +97,6 @@
                 $.ajax({
                     url: requestURL,
                     success: function(data) {
-                        //console.log(data[0].name); gets Afghanistan
                         $.each(data, function() {
                             if(this.name === countrySelected)
                             {
@@ -130,10 +126,7 @@
                 var flagCode = alphaKey;
                 var $flagShow;
                 $flagShow =  '<img src="http://www.geognos.com/api/en/countries/flag/' + flagCode + '.png" style="width:80px;height:40px;" >'
-                //$('#capital') = countryCapital;
-                //alphaKey (lowercase for details)
-                //all caps for flag
-                //alert("found " + countryName);
+
                 var detailsCode = alphaKey.toLowerCase();
                 var $detailsShow = '<p><a href="http://www.geognos.com/geo/en/cc/'+ detailsCode+ '.html" target="_blank">For More Details</a></p>'
 
@@ -143,14 +136,7 @@
 
                 $("#table").show();
 
-
-                //alert(country);
             });
-
-            var callAjax = function()
-            {
-
-            }
 
     </script>
 
