@@ -83,3 +83,7 @@ options.change(function() {
 	$("#table").show();
 
 });
+var callAjax = function()
+{
+
+}
