@@ -1,10 +1,28 @@
 html{
-	-webkit-user-select: none; /* Chrome/Safari */        
-	-moz-user-select: none; /* Firefox */
-	-ms-user-select: none;
-	height:100%;
-	width:100%;
-	margin:0px;
+	margin: 0 auto;
 	padding:0px;
+	background-color:#FFAB60;
+	font-size:30px;
 
 }
+table {
+    border-collapse: collapse;
+}
+td{
+	border-style: solid;
+    border-width: 5px;
+	border-color: #FFAB60;
+	font-size:30px;
+	text-align:center;
+	font-style:color=white;
+}
+td.cap{
+	
+	background-color:rgba(1, 1, 0, 0.1);
+}
+select{
+	font-size:30px;
+}
+
+
+

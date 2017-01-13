@@ -71,7 +71,7 @@ options.change(function() {
 
 	var flagCode = alphaKey;
 	var $flagShow;
-	$flagShow =  '<img src="http://www.geognos.com/api/en/countries/flag/' + flagCode + '.png" style="width:80px;height:40px;" >'
+	$flagShow =  '<img src="http://www.geognos.com/api/en/countries/flag/' + flagCode + '.png" style="width:150px;height:75px;" >'
 
 	var detailsCode = alphaKey.toLowerCase();
 	var $detailsShow = '<p><a href="http://www.geognos.com/geo/en/cc/'+ detailsCode+ '.html" target="_blank">For More Details</a></p>'
