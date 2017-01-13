@@ -7,6 +7,8 @@ html{
     border: 30px solid white;
     padding: 40px; 
 	color:white;
+	font-family: 'Neuton', serif;
+
 }
 div{
 	display: inline-block;
@@ -20,6 +22,7 @@ div.main{
 	left: 50%;
 	margin-right: -50%;
 	transform: translate(-50%, -50%)
+	
 }
 table {
     border-collapse: collapse;
@@ -33,6 +36,7 @@ td{
 	font-size:30px;
 	text-align:center;
 	font-style:color=white;
+
 }
 td.cap{
 	
