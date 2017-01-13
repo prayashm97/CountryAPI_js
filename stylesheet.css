@@ -4,12 +4,20 @@ html{
 	background-color:#FFAB60;
 	font-size:30px;
 	text-align:center;
+	border-radius: 25px;
+    border: 30px solid white;
+    padding: 40px; 
+    //border-radius: 25px;
+    //border-width: 30px;
+	//border-color: white;
 }
 div{
 	display: inline-block;
+	
 }
 table {
     border-collapse: collapse;
+	padding:20px;
 }
 td{
 	border-style: solid;
@@ -21,7 +29,7 @@ td{
 }
 td.cap{
 	
-	background-color:rgba(1, 1, 0, 0.1);
+	background-color:rgba(0, 0, 0, 0.1);
 }
 select{
 	font-size:24px;
