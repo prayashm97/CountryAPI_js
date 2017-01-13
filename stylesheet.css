@@ -7,9 +7,7 @@ html{
 	border-radius: 25px;
     border: 30px solid white;
     padding: 40px; 
-    //border-radius: 25px;
-    //border-width: 30px;
-	//border-color: white;
+
 }
 div{
 	display: inline-block;
@@ -26,6 +24,7 @@ td{
 	font-size:30px;
 	text-align:center;
 	font-style:color=white;
+	padding:5px;
 }
 td.cap{
 	
